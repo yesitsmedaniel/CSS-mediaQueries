@@ -1,0 +1,42 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #dadada;
+  font-size: 10px;
+}
+.preview-baku {
+  background: #fff url("images/baku.jpg") no-repeat top center;
+}
+.container {
+  width: 100%;
+}
+
+div {
+  background-color: #fff;
+  float: left;
+  margin: 1% 0;
+  width: 100%;
+  padding: 20px 25px;
+}
+
+h1 {
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+  text-transform: uppercase;
+  padding:5%;
+  font-family: sans-serif;
+}
+
+h3 {
+  font-size: 2em;
+  text-align: left;
+}
+/*@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;*/
+  }
+}
