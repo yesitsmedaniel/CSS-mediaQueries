@@ -5,10 +5,11 @@
 body {
   background-color: #dadada;
   font-size: 10px;
+
 }
-.preview-baku {
-  background: #fff url("images/baku.jpg") no-repeat top center;
-}
+/*.preview-baku {
+
+}*/
 .container {
   width: 100%;
 }
@@ -18,25 +19,51 @@ div {
   float: left;
   margin: 1% 0;
   width: 100%;
-  padding: 20px 25px;
+  height: 300px;
+  padding: 40px 50px;
+}
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+@media screen and (min-width: 991px){
+   div {
+    margin: 1%;
+    width: 23%;
+  }
 }
 
 h1 {
-  font-size: 2em;
+  font-size: 1.9em;
   margin: 0;
   text-align: center;
   text-transform: uppercase;
   padding:5%;
   font-family: sans-serif;
+  letter-spacing: 2px;
 }
 
 h3 {
-  font-size: 2em;
+  font-size: 2.5em;
   text-align: left;
 }
-/*@media screen and (min-width: 575px){
-   div {
-    margin: 1%;
-    width: 48%;*/
-  }
+.preview-baku {
+  background-image: url(../images/baku.jpg);
+  background-size: cover;
+}
+
+.preview-london {
+  background-image: url(../images/london.png);
+  background-size: cover;
+}
+.preview-madrid {
+  background-image: url(../images/madrid.jpg);
+  background-size: cover;
+}
+.preview-rome {
+  background-image: url(../images/rome.jpg);
+  background-size: cover;
+
 }
